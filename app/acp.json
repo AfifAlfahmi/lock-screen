@@ -1,0 +1,40 @@
+{
+  "obfuscate": [
+  ],
+  "keep_strings": [],
+  "keep_flow": [
+  ],
+  "wrap": [
+  ],
+  "options": {
+    "antidebug": false,
+    "no_packages": false,
+    "remove_kotlin_meta": true,
+    "intern_strings": true,
+    "ignore_package_private": true,
+    "no_marker": true,
+    "include_integrity_dex": false,
+    "auto_certificate_checking": true
+  },
+  "antidebug": {
+    "antijdwp": true,
+    "antitracer": true,
+    "fridaHookDetector": true,
+    "fridaSignatureScanner": true,
+    "fridaSocketDetector": true,
+    "useSigsegvGuard": true
+  },
+  "keep_names": [
+    "android",
+    "com.google",
+    "androidx.**"
+  ],
+  "keep_wrap": [
+  ],
+  "skip": [
+    "android.**",
+    "androidx.**",
+    "com.google.**",
+    "kotlin.**"
+  ]
+}
